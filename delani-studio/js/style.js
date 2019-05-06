@@ -20,3 +20,15 @@ $("#devel").click(funnction)(){
 });
 });
 });
+
+$(document).ready(function(){
+$("#image3").click(function(){
+$("#product").show();
+$("#image3").hide();
+
+$("#product").click(funnction)(){
+  $("#image3").show();
+  $("#product").hide();
+});
+});
+});
