@@ -20,3 +20,10 @@ body{
 .h1{
   padding-top: 380px;
 }
+#devel,#product,#design{
+  display: none;
+}
+.column{
+  float:left;
+  width: 33.33%;
+}
