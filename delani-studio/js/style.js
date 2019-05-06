@@ -9,3 +9,14 @@ $("#design").click(funnction)(){
 });
 });
 });
+$(document).ready(function(){
+$("#image2").click(function(){
+$("#devel").show();
+$("#image2").hide();
+
+$("#devel").click(funnction)(){
+  $("#image2").show();
+  $("#devel").hide();
+});
+});
+});
